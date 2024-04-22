@@ -1,1 +1,1 @@
-"# gemini" 
+# Sunil Neupane Python Django Project
