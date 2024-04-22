@@ -3,5 +3,7 @@ from myapp import views
 urlpatterns = [
     path('',views.home,name='homepage'),
     path('aboutus/',views.aboutus,name='aboutuspage'),
-    path('home/<id>',views.dynamicHome,name="dynamic")
+    path('home/<id>',views.dynamicHome,name="dynamic"),
+    path('sunil/',views.sunil,name="sunil")
 ]
+

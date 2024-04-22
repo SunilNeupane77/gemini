@@ -11,3 +11,6 @@ def aboutus(request):
 def dynamicHome(request,id):
     print(id)
     return HttpResponse(f"<h1>dynamic Home Page {id}</h1>")
+
+def sunil(request):
+    return render(request,'sunil.html')
