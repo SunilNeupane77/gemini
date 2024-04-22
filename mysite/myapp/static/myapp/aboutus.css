@@ -1,0 +1,10 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+h1{
+   color: black;
+   background-color: cadetblue;
+   margin: 2px 2px 2x 2px;
+}
