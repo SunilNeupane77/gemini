@@ -14,3 +14,6 @@ def dynamicHome(request,id):
 
 def sunil(request):
     return render(request,'sunil.html')
+
+def division(request):
+    return render(request,"division.html")
