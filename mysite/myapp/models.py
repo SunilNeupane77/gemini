@@ -32,5 +32,4 @@ class  Person(models.Model):
       model_number=models.CharField("model number",max_length=20)
       color=models.CharField(max_length=20)
       
-   class Meta:
-      abstract=True
+   
