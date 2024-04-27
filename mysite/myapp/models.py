@@ -18,5 +18,6 @@ class  Person(models.Model):
    date_of_birth=models.DateField("date of birth")
    slug=models.SlugField("slug",unique=2)
    weight=models.DecimalField("weight",max_digits=3,decimal_places=1)
+   description=models.TextField("description",max_length=255)
    created_at=models.DateTimeField("created at",auto_now_add=True)
    updated_at=models.DateTimeField("updated at",auto_now=True)
