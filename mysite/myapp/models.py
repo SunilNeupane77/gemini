@@ -21,3 +21,16 @@ class  Person(models.Model):
    description=models.TextField("description",max_length=255)
    created_at=models.DateTimeField("created at",auto_now_add=True)
    updated_at=models.DateTimeField("updated at",auto_now=True)
+   
+   
+   class Baby(models.Model):
+      first_name=models.CharField("person first name",max_length=15)
+      middle_name=models.CharField("middle name",max_length=15,blank=True)
+      last_name=models.CharField("last name",max_length=15)
+      
+   class  Vehicles(models.Model):
+      model_number=models.CharField("model number",max_length=20)
+      color=models.CharField(max_length=20)
+      
+   class Meta:
+      abstract=True
