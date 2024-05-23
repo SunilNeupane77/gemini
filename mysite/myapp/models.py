@@ -35,4 +35,6 @@ class  Person(models.Model):
    class Sunil(models.Model):
       first_name=models.CharField("Personal name",max_length=22)
       middle_name=models.CharField("middle name",max_length=12)
-      
+   
+   class Neupane(models.Model):
+      model_number=models.CharField(_("new number"), max_length=50)   
