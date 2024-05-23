@@ -32,4 +32,7 @@ class  Person(models.Model):
       model_number=models.CharField("model number",max_length=20)
       color=models.CharField(max_length=20)
       
-   
+   class Sunil(models.Model):
+      first_name=models.CharField("Personal name",max_length=22)
+      middle_name=models.CharField("middle name",max_length=12)
+      
