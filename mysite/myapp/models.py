@@ -38,3 +38,4 @@ class  Person(models.Model):
    
    class Neupane(models.Model):
       model_number=models.CharField(_("new number"), max_length=50)   
+      model_name=models.CharField("model name",max_length=45)
